@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #4717f6;
+}
+
+h1,
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input,
+textarea {
+    margin: 8px;
+    resize: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:focus,
+input:focus,
+textarea:focus {
+    outline-color: #4760f6;
+}
